@@ -1,0 +1,281 @@
+*{
+    box-sizing: border-box;
+}
+::selection{
+    background-color: black;
+    color: white;
+}
+
+body{
+    margin:0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    font-size: 14px;
+    background: linear-gradient(to left,#333399,#ff00cc);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+
+  
+    
+}
+div.formulaire_header{
+        width: 450px;
+        background-color: #ffffff88;
+        border-radius: 20px;
+        padding: 50px;
+        box-shadow: 0 0 0 black;
+        box-shadow:0 0 8px 0px black;
+        align-items: center;
+        display: inline-block;
+       
+    }
+
+h2{
+    margin: 0px;
+    text-align: center;
+    font-size: 2em;
+}
+p{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    text-align: center;
+    
+}
+div.logo_panda img{
+    height: 50px;
+    width: 50px;
+    opacity: .8;
+}
+div.logo_panda{
+    text-align: center;
+    padding: 100px 0px 20px  0px
+}
+
+div.email,div.password{
+    background-color: rgba(255, 255, 255, 0.527);
+    padding: 0px 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 50px;
+
+
+}
+input[type="email"],input[type="password"]{
+    outline: none;
+   background-color:rgba(255, 255, 255, 0);
+    border: none;
+    position: relative;
+    top: 7px;
+}
+div.email span ,div.password span{
+    margin: 0 10px;
+    position: relative;
+    top: 14px;
+    display: inline-block;
+    opacity: .5;
+    
+    
+}
+
+
+
+div.chekcbox{
+    margin-bottom: 10px;
+}
+input[type="checkbox"]{
+    margin-right: 2px;
+}
+
+label{
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.548);
+
+}
+a:hover{
+ text-decoration: underline;
+}
+button{
+    margin: 10px 0;
+    padding:10px 20px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.527);
+    border: none;
+    width: 350px;
+    background-color: black;
+    color: white;
+
+    
+}
+
+ @media screen and (max-width: 596px )  {
+    div.formulaire_header{
+        width: 100vh;
+        margin-left: 0 ;
+        margin-right: 0
+      
+    ;
+          padding: 30px;
+
+          margin-top: 0px;
+          border-radius: 0px;
+    
+          box-shadow: 0 0 0 black;
+          height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+    }
+ 
+    
+div.email,div.password{
+    
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  
+
+
+}
+button{
+    margin: 10px 0;
+    padding:10px 20px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.527);
+    border: none;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+input[type="email"],input[type="password"]{
+    outline: none;
+   background-color:rgba(255, 255, 255, 0);
+    border: none;
+    position: relative;
+    top: 7px;
+    width: 70%;
+}
+div.email span ,div.password span{
+    margin: 0 10px;
+    position: relative;
+    top: 14px;
+    display: inline-block;
+    opacity: .5;
+    width: 8%;
+    
+    
+}
+div.logo_panda{
+    text-align: center;
+    padding: 0px;
+}
+}
+ 
+
+
+
+/* 
+@media screen and (max-height: 665px){
+
+
+
+div.formulaire_header{
+        width: 100vh;
+        margin-left: 0 ;
+        margin-right: 0
+      
+    ;
+          padding: 30px;
+
+          margin-top: 0px;
+          border-radius: 0px;
+    
+          box-shadow: 0 0 0 black;
+          height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+    }
+
+
+
+     
+div.email,div.password{
+    
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  
+
+
+}
+button{
+    margin: 10px 0;
+    padding:10px 20px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.527);
+    border: none;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+input[type="email"],input[type="password"]{
+    outline: none;
+   background-color:rgba(255, 255, 255, 0);
+    border: none;
+    position: relative;
+    top: 7px;
+    width: 70%;
+}
+div.email span ,div.password span{
+    margin: 0 10px;
+    position: relative;
+    top: 14px;
+    display: inline-block;
+    opacity: .5;
+    width: 8%;
+    
+    
+}
+div.logo_panda{
+    text-align: center;
+    padding: 0px;
+}
+ */ 
+
+
+
+
+
+
+
+
+
+ 
+/* } */
+
+
+
+
+
+
+
